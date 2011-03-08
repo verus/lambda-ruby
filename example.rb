@@ -1,4 +1,3 @@
-require 'tracer'
 require './lambda.rb'
 
 #階乗
