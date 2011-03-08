@@ -29,6 +29,7 @@ Prd = ->(m){Fst[m[Ss][Zz]]}
 
 #四則演算#######################################
 Plus = ->(m){->(n){->(s){->(z){m[s][n[s][z]]}}}}
+Minus = ->(m){->(n){n[Prd][m]}}
 Times = ->(m){->(n){m[Plus[n]][Zero]}}
 
 #比較###########################################
@@ -43,4 +44,3 @@ GenNum = ->(n){(1..n).inject(Zero){|i| Scc[i]}}
 Realbool = ->(b){b[true][false]}
 Churchbool = ->(b){if(b);True;else;False;end}
 Realeq = ->(m){->(n){Realbool[Equal[m][n]]}}
-
