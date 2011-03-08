@@ -1,0 +1,13 @@
+Title		:	ラムダ計算をRubyで書いてみた
+Author	:	Verus
+Twitter	:	http://twitter.com/Verus
+WebSite	:	http://www.harapeco.org
+Github	:	https://github.com/verus
+
+ラムダ計算をRubyで書いてみました．
+足らぬところは多々ありますが，まぁ徐々に書いていく感じで．
+#四則演算と言いながら加算と乗算しかなかったりねｗ
+
+ファイル構成
+lambda.rb		:	ラムダ式や内部関数などを定義してあるです
+example.rb	:	例題を記述してあるです
